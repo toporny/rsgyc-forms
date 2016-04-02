@@ -1,0 +1,10 @@
+/bower_components
+/node_modules
+/_build
+/css/bootstrap.min.css
+/css/loader.css
+/css/parsley.css
+/cssparsley.js
+/cssbootstrap.min.js
+/cssjquery.min.js
+
