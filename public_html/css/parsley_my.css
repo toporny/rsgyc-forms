@@ -1,0 +1,30 @@
+.parsley-required{
+  color: red;
+}
+
+.parsley-required {
+  color: red;
+}
+
+input[type='checkbox'] {
+  margin:4px;
+}
+
+label {
+  margin-top:10px;
+  margin-bottom:0px;
+}
+
+.parsley-errors-list {
+  margin-bottom: 8px;
+  color: red;
+}
+
+.parsley-error {
+  margin-bottom: 2px;
+}
+
+li.parsley-minlength {
+    color: red;
+}
+
