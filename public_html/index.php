@@ -24,7 +24,7 @@
     <script type="text/javascript">
 
       var loaprice = 170;
-      var publishableKey = 'pk_test_ezb86d0VH8xQQnFBbTbFrnuf';
+      var publishableKey = 'pk_test_a7m5Q91it7KYngnGnfw2smDY';
       Stripe.setPublishableKey(publishableKey);
 
       function isNumeric(n) {
