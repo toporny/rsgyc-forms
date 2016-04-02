@@ -1,0 +1,8 @@
+{
+	"name": "rsgyc-forms form with parlsy-validation and stripe",
+	"dependencies": {
+		"jquery": "1.12.*",
+		"bootstrap": "3.1.*",
+		"parsleyjs": "2.3.*"
+	}
+}
