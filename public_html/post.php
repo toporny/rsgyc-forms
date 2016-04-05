@@ -7,7 +7,7 @@ define("PUBLISHABLEKEY", "pk_test_a7m5Q91it7KYngnGnfw2smDY"); // my TEST
 define("APIKEY", "sk_test_fajggt5xELGUyOe3m8ktp6sI"); // my TEST
 
 define("LOAPRICE", 170);
-require 'lib/Stripe.php';
+require 'bower_components/stripe/lib/Stripe.php';
 
 
 if(isset($HTTP_RAW_POST_DATA)) {

@@ -3,6 +3,7 @@
 	"dependencies": {
 		"jquery": "1.12.*",
 		"bootstrap": "3.1.*",
+		"stripe": "https://github.com/stripe/stripe-php.git",
 		"parsleyjs": "2.3.*"
 	}
 }
