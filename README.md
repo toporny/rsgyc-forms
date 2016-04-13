@@ -3,7 +3,7 @@ Form with parsley validation and stripe payment
 
 ### Installation
 
-You need install js and css libriaries:
+You need to install JS, PHP and CSS libriaries:
 
 ```sh
 $ npm install
