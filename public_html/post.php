@@ -7,8 +7,12 @@ define("PUBLISHABLEKEY", "pk_test_a7m5Q91it7KYngnGnfw2smDY"); // my TEST
 define("APIKEY", "sk_test_fajggt5xELGUyOe3m8ktp6sI"); // my TEST
 
 define("LOAPRICE", 170);
-require 'bower_components/stripe/lib/Stripe.php';
+require 'lib/bower_components/stripe/init.php';
 
+//         lib\bower_components\stripe\init.php
+/*
+Fatal error: require(): Failed opening required 'C:\Users\uzytkownik\development\rsgyc-forms\public_html\lib\bower_components\stripe/lib/Util/AutoPagingIterator.php' (include_path='.;C:\xampp\php\PEAR') in C:\Users\uzytkownik\development\rsgyc-forms\public_html\lib\bower_components\stripe\init.php on line 7
+*/
 
 if(isset($HTTP_RAW_POST_DATA)) {
   parse_str($HTTP_RAW_POST_DATA, $arrPOST); 
@@ -27,7 +31,8 @@ if(isset($HTTP_RAW_POST_DATA)) {
 
 function doCharge ($arrPOST) {
 
-  Stripe::setApiKey(APIKEY);
+  \Stripe\Stripe::setApiKey(APIKEY);
+
   $error = ''; $success = '';
   try {
     if (!isset($arrPOST['stripeToken'])) throw new Exception("The Stripe Token was not generated correctly");
@@ -76,7 +81,7 @@ function doCharge ($arrPOST) {
                          "description" => $arrPOST['form_email1']
                       );
     if ( ($arrPOST['form_loa']>=2) && ($arrPOST['form_loa']<=99) ) {
-      Stripe_Charge::create($stripe_data);
+      \Stripe\Charge::create($stripe_data);
       $data_string = '<div class="alert alert-success"><strong>Success!</strong> Your payment was successful. </div>';
       $status = 1;
 

@@ -297,7 +297,7 @@
         };
 
         $.ajax({
-          url: "https://alltic.home.pl/autoinstalator/rsgyc.ie/post.php",
+          url: "post.php",
           data: data,
           type: "POST",
           dataType: "json",   
@@ -317,7 +317,7 @@
             console.log('textStatus', textStatus);
             console.log('errorThrown', errorThrown);
             $('.spinner').hide();
-            $('#submit_id').attr('disabled', 'disabled');
+            $('#submit_id').removeAttr('disabled');
             var data_string = '<div class="alert alert-danger"><strong>ERROR!</strong> Problem with sending money. </div>';
             $('#modal_body_id').html(data_string);
             $('#myModal').modal('show');

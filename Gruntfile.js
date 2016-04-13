@@ -10,7 +10,8 @@ module.exports = function (grunt) {
 			{expand: false, src: ['bower_components/bootstrap/dist/css/bootstrap.min.css'], dest: 'public_html/css/bootstrap.min.css', filter: 'isFile'},
 			{expand: false, src: ['bower_components/parsleyjs/dist/parsley.js'], dest: 'public_html/js/parsley.js', filter: 'isFile'},
 			{expand: false, src: ['bower_components/parsleyjs/dist/parsley.css'], dest: 'public_html/css/parsley.css', filter: 'isFile'},
-			{expand: false, src: ['bower_components/stripe/lib/*'], dest: 'public_html/lib/'},
+			{expand: false, src: ['bower_components/stripe/lib/**'], dest: 'public_html/lib/'},
+			{expand: false, src: ['bower_components/stripe/init.php'], dest: 'public_html/lib/'},
 		],
 	  },
 	}
