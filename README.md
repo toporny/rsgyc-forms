@@ -12,3 +12,5 @@ $ bower update
 $ grunt
 ```
 
+![Screenshot](screencapture-rsgyc-forms-local.png)
+
