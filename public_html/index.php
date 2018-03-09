@@ -23,7 +23,7 @@
 
     <script type="text/javascript">
 
-      var loaprice = 170;
+      var loaprice = 195;
       var publishableKey = 'pk_test_a7m5Q91it7KYngnGnfw2smDY';
       Stripe.setPublishableKey(publishableKey);
 
@@ -61,16 +61,16 @@
         <input id="stripeToken_id" type="hidden" name="stripeToken" value="">
         <h2>West Bight Marina Berthing Application Form</h2>
         <p>Please complete all details below to apply for West Bight Marina Berthing.</p>
-        <p>A ferry service between the Club pontoon and the West Bight of the marina will be available from lift-in until Lift Out. This will be the only point of access to the West Bight for RSGYC boats and a substantially improved service of boat access is anticipated. West Bight Details Mooring rates: Mid-April – Mid October LOA (meters) x €170</p>
+        <p>A ferry service between the Club pontoon and the West Bight of the marina will be available from lift-in until Lift Out. This will be the only point of access to the West Bight for RSGYC boats and a substantially improved service of boat access is anticipated. West Bight Details Mooring rates: Mid-April – Mid October LOA (meters) x €195</p>
         <ul>
           <li>Boats will be allocated a specific berth on the Marina West Bight</li>
-          <li>Boats up to 45ft can be accommodated</li>
+          <li>Boats up to 40ft can be accommodated</li>
           <li>Launch service to and from the RSGYC only</li>
         </ul>
         <p>Launch Service Details:</p>
         <ul>
           <li>Launch service 7 – days a week from Lift In to Lift Out.</li>
-          <li>Launch service will run every 30min departing the RSGYC with one pickup/ drop-off location on the West Bight marina.</li>
+          <li>Launch service will run every 30min departing the RSGYC with a pickup/ drop-off location on the West Bight marina.</li>
           <li>Launch service will run every 15 minutes on race days.</li>
           <li>Launches can be hailed on VHF Ch. 33/ M1 or by contacting the Boathouse on 086 734 5413</li>
         </ul>
